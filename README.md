@@ -26,14 +26,14 @@ After you have entered "/pomodoro \<session name\>", \<session name\> executes.
 
 <b> Example conversation: </b>
 - `/pomodoro status`: "No pomodoro session is currently running."
-- `Physics Lab`: "Session "Physics Lab" started on 6/2/2019, 11:01:14 PM."
+- `/pomodoro Physics Lab`: "Session "Physics Lab" started on 6/2/2019, 11:01:14 PM."
 - `/pomodoro status`: "Session "Physics Lab" is currently running. You have 25 minute(s) left."
 - Work for 25 minutes....
 - You'll get a text: ""25 minutes done! Take a break.""
 - `/pomodoro status`: "You're on break from "Physics Lab"! You have 7 minute(s) left before work."
 - Do something for 7 minutes to your heart's content...
 - You'll get a text: "7 minutes done. Back to work!"
-- `status`: "No pomodoro session is currently running."
+- `/pomodoro status`: "No pomodoro session is currently running."
 - And so on...
 
 ## Get Started
