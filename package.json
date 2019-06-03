@@ -1,0 +1,37 @@
+{
+  "name": "OdinBot",
+  "version": "1.0.0",
+  "description": "Bot that helps you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "chatbot",
+    "nlp",
+    "nodejs",
+    "iot"
+  ],
+  "author": "Orange Gate",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "natural": "^0.6.3",
+    "node-nlp": "^3.1.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
