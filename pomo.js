@@ -16,7 +16,7 @@ function pomoSession(msg, telegram) {
     telegram.sendMessage(msg.chat.id, "25 minutes done! Take a break.");
     pomoStatus = false;
     breakStatus = true;
-    timer = setTimeout(breakSession, 5 * 1000, msg, telegram);
+    timer = setTimeout(breakSession, 7 * 60 * 1000, msg, telegram);
     timer;
     timeOutStart = Date.now();
   }
