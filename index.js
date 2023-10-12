@@ -5,7 +5,7 @@ var nlpControl = require('./nlpcontrol');
 var pomo = require('./pomo');
 var pomoStatus = require('./pomo').pomoStatus
 
-telegram = new TelegramBot("841504355:AAF67TNOSpE5GYna-2SF7tgoyaH_xc9QHvs", { polling: true });
+telegram = new TelegramBot("TELEGRAM_TOKEN", { polling: true });
 var classifier = new natural.BayesClassifier();
 
 // Add the NLP.
